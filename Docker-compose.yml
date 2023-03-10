@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+   webapp:
+    image : demo:v1
+    container_name: react
+    ports:
+      - "80:3000"
